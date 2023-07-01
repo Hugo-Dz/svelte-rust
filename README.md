@@ -74,7 +74,7 @@ pub fn add(a: i32, b: i32) -> i32 {
 
 ## Specify the version of the package
 
-By adding crate-type = ["cdylib"]
+By adding `crate-type = ["cdylib"]`
 
 ```toml
 [package]
