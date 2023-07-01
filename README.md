@@ -1,6 +1,6 @@
 # Demo Svelte + Rust
 
-You can play around the live demo [here](https://svelte-rust.vercel.app/)
+👉 You can play around the live demo [here](https://svelte-rust.vercel.app/)
 
 ![demo](readme_assets/demo.gif)
 
@@ -63,6 +63,7 @@ cargo new --lib my-package
 
 ```rust
 // my-package/src/lib.rs
+
 use wasm_bindgen::prelude::*;
 
 #[wasm_bindgen]
@@ -104,7 +105,8 @@ And drop it in the /lib folder of your Svelte app
 ## Import your Rust package in your Svelte app
 
 ```javascript
-// Libs
+// src/routes/+page.svelte
+
 import init, { add } from "$lib/pkg/my_package";
 
 onMount(async () => {

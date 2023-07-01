@@ -1,0 +1,14 @@
+{
+  "name": "my-package",
+  "version": "0.1.0",
+  "files": [
+    "my_package_bg.wasm",
+    "my_package.js",
+    "my_package.d.ts"
+  ],
+  "module": "my_package.js",
+  "types": "my_package.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
