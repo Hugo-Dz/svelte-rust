@@ -115,5 +115,12 @@
 		</form>
 	</div>
 	<!--Credits-->
-
+	<div class="text-sm text-slate-400 mt-6 flex flex-col text-center w-full">
+		<p>Made by <a
+			class="underline"
+			href="https://www.hugoduprez.com/"
+			target="_blank">Hugo</a
+		></p>
+		<a class="underline" target="_blank" href="https://github.com/Hugo-Dz/svelte-rust/tree/main">How it works?</a>
+	</div>
 </div>
