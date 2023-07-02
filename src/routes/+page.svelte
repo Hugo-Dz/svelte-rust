@@ -68,7 +68,7 @@
 		<!--Title container-->
 		<div class="flex flow-row justify-center items-center space-x-3">
 			<div
-				class="border border-orange-600 rounded-lg p-2 bg-gradient-to-br from-slate-50 to-slate-200"
+				class="border h-full flex items-center justify-center aspect-square sm:aspect-auto border-orange-600 rounded-lg p-2 bg-gradient-to-br from-slate-50 to-slate-200"
 			>
 				<img src="/images/rust.svg" alt="Rust" height="48" width="48" />
 			</div>
@@ -115,11 +115,5 @@
 		</form>
 	</div>
 	<!--Credits-->
-	<p class="text-sm text-slate-400 mt-6">
-		Made by <a
-			class="underline"
-			href="https://www.hugoduprez.com/"
-			target="_blank">Hugo</a
-		>
-	</p>
+
 </div>
