@@ -43,7 +43,7 @@ You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
 
-# Add some Rust 🦀 to your Svete app
+# Add some Rust 🦀 to your Svelte app
 
 Install Rust by going to the [Install Rust](https://www.rust-lang.org/tools/install) page and following the instructions.
 
